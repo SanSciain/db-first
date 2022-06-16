@@ -1,0 +1,13 @@
+CARS 
+
+id - INT - UNSIGNED - PRIMARY KEY - NOTNULL - AUTOINCREMENT - UNIQUE
+license_plate - VARCHAR(7) - NOTNULL - UNIQUE
+km_done - SMALLINT - UNSIGNED - NOTNULL
+color - VARCHAR(10) - NULL
+year - YEAR - NULL
+sits - TINYINT - UNSIGNED - NULL
+price - UNSIGNED - DECIMAL(7,2) - NOTNULL
+brand - VARCHAR(20) - NOTNULL
+model - VARCHAR(20) - NOTNULL
+air_conditioning - TINYINT - UNSIGNED - DEFAULT(false)
+motor_power_supply - VARCHAR(10)
